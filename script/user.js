@@ -93,6 +93,9 @@ class User {
         }
 
         $.ajax({
+            headers: {
+                'Access-Control-Allow-Headers': 'Origin, Content-Type, X-Auth-Token'
+            },
             url: `${base_url}/users/register`,
             method: 'POST',
             data: objValue,

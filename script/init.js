@@ -1,5 +1,5 @@
 //Base Url
-const base_url = 'https://fancy-to-do-arona.herokuapp.com/'
+const base_url = 'https://fancy-todo-server-arona.herokuapp.com'
 
 //global
 const $alertInfo = $('#alert-info')
